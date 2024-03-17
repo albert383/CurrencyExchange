@@ -5,14 +5,14 @@ This app will help you calculate the currency exchange from PLN to EUR CHF and U
 ## Table of Contents
 
 - [Usage](#usage)
-- [Website - link](#website)
+- [Website](#website)
 - [License](#license)
 
 ## Usage
 Instruction how to use the project.
 ![example of usage](https://i.ibb.co/YDLLmDF/currencyexchangeusage.gif)
 
-## Website - link
+## Website
 
 Your site is live at https://albert383.github.io/CurrencyExchange/
 
