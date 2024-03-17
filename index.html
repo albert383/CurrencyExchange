@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 4 Kantor</title>
+    <link rel="icon" href="images/icon.png?1">
+    <meta property="og:image" content="images/share.png?1">
+    <script defer src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <div>
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">
+                    KANTOR 
+                </legend>
+                <p>
+                    <label class="form__label">
+                        *Kwota w (PLN): <input class="form__field js-amount " type="number" min="1" step="any"
+                            name="inputAmount" required value="100">
+                    </label>
+                </p>
+                <span>Wybierz walutę wymiany</span>
+                <p>
+                <ul>
+                    <li class="form__li">
+                        <label>
+                            EUR
+                            <input class="js-eur" type="radio" value="EUR" name="currency" checked>
+                        </label>
+                    </li>
+                    <li class="form__li">
+                        <label>
+                            CHF
+                            <input class="js-chf" type="radio" value="CHF" name="currency">
+                        </label>
+                    </li>
+                    <li class="form__li">
+                        <label>
+                            USD
+                            <input class="js-usd" type="radio" value="USD" name="currency">
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <p>
+                <button class="form__button" type="submit">Oblicz</button>
+            </p>
+            <p>
+                Otrzymasz:<strong class="js-result">N/A</strong>
+            </p>
+            <p>
+                * Pola oznaczone gwiazdką są wymagane
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
