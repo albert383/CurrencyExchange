@@ -24,7 +24,7 @@ Used to structure the content of a website.
 Used for styling and layout of elements on a page.
 - JavaScript:
 Used to add interactivity and logic to web applications.
--CSS libraries:
+- CSS libraries:
 Normalize.css: Standardises styles across browsers.
 - Google Fonts:
 Importing custom fonts into a project.
