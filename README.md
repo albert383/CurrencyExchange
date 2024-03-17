@@ -5,7 +5,7 @@ This app will help you calculate the currency exchange from PLN to EUR CHF and U
 ## Table of Contents
 
 - [Usage](#usage)
-- [Website-link](#website)
+- [Website - link](#website)
 - [License](#license)
 
 ## Usage
