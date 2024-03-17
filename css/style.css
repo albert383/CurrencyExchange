@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before ::after {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/background.png");
+    background-size: cover;
+
+}
+
+.element {
+    width: 1000px;
+	height: 700px;
+	resize: both;
+    overflow: auto;
+    margin: auto;
+}
