@@ -4,6 +4,7 @@
     margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
+    background-color: rgba(127, 255, 212, 0.637);
 }
 
 .form__fieldset {
