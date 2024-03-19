@@ -9,9 +9,12 @@ html {
 
 .body {
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url("../images/background.png");
     background-size: cover;
-
+    background-position: center;
 }
 
 .element {
@@ -20,4 +23,10 @@ html {
 	resize: both;
     overflow: auto;
     margin: auto;
+}
+
+.container {
+    flex-basis: 700px;
+    margin: 20px;
+    padding: 20px;
 }
